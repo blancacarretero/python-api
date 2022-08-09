@@ -2,65 +2,29 @@
 
 ## Background
 
-Whether financial, political, or social&mdash;data's true power rests in its ability to answer questions definitively. So, let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
-
-Now, we know what you may be thinking: _"Duh. It gets hotter ..."_
-
-But, if pressed, how would you **prove** it?
-
-### Before You Begin
-
-1. Create a new repository for this project called `python-api-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local Git repository, create a directory for both of the Python challenges. Use a folder name that corresponds to the challenges, such as **WeatherPy**.
-
-4. Inside the folder you just created, add new files called `WeatherPy.ipynb` and `VacationPy.ipynb`. These will be the main scripts to run for each analysis.
-
-5. Push the above changes to GitHub.
-
-
-### Adding a .gitignore File
-
-We don't want the `api_keys.py` file containing the API key to be exposed to the public on GitHub; this would mean anyone could copy and use our API key, possibly incurring charges.
-
-When we type `git status` in the command line, we can see all the untracked files that we have created so far.
-
-If we only wanted to add the `WeatherPy.ipynb` file to GitHub, we could type `git add WeatherPy.ipynb`. However, every time we want to add a new file or update current files to the repository, we would have to add each file individually, which is time-consuming and cumbersome. Instead, we can add the files that we don't want to track to the `.gitignore` file.
-
-Before we add our files to GitHub, let's add `api_keys.py` to the `.gitignore` file. Use the following instructions:
-
-1. Open your `python-api-challenge` GitHub folder in VS Code.
-
-2. Open the `.gitignore` file, and on the first line, type the following code:
-
-```python
-# Adding config.py file.
-api_keys.py
-```
-
-3. While the `.gitignore` file is open, add the `API_practice.ipynb` and `random_numbers.ipynb` files and save the file.
-
-4. In the command line, type `git status` and press Enter. The output should indicate that the `.gitignore` file has been modified and the `WeatherPy.ipynb` file is untracked.
-
-5. Use `git add`, `git commit`, and `git push` to commit the modifications to `.gitignore` and the `WeatherPy.ipynb` file to GitHub.
-
-On GitHub, the only new file you should find is the `WeatherPy.ipynb` file.
-
+Whether financial, political, or social&mdash;data's true power rests in its ability to answer questions definitively. Python requests, APIs, and JSON may answer a fundamental question: "What's the weather like as we approach the equator?"
 
 ## Part 1: WeatherPy
 
-In this section, you'll create a Python script to visualize the weather of 500+ cities of varying distance from the equator. To do so, you'll use a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and your problem-solving skills to create a representative model of weather across cities.
+Created a Python script to visualize the weather of 500+ cities of varying distance from the equator using a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and problem-solving skills to create a representative model of weather across cities.
 
-The first requirement is to create a series of scatter plots to showcase the following relationships:
+Created a series of scatter plots to showcase the following relationships:
 
-* Temperature (F) vs. Latitude
-* Humidity (%) vs. Latitude
-* Cloudiness (%) vs. Latitude
-* Wind Speed (mph) vs. Latitude
+* <b>Temperature (F) vs. Latitude</b>
+<img src="https://github.com/blancacarretero/python-api/blob/main/images/latitude_vs_temperature.png?raw=true" width="350" title="Temperature vs. Latitude">
+    * As expected, the closer to the equator the warmer temperatures are. Li 
 
-After each plot, add a sentence or two explaining what the code is analyzing.
+&nbsp;
+  
+* <b>Humidity (%) vs. Latitude</b>
+<img src="https://github.com/blancacarretero/python-api/blob/main/images/latitude_vs_humidity.png?raw=true" width="350" title="Humidity vs. Latitude">
+
+* <b>Cloudiness (%) vs. Latitude</b>
+<img src="https://github.com/blancacarretero/python-api/blob/main/images/latitude_vs_cloudiness.png?raw=true" width="350" title="Cloudiness vs. Latitude">
+
+* <b>Wind Speed (mph) vs. Latitude</b>
+<img src="https://github.com/blancacarretero/python-api/blob/main/images/latitude_vs_wind_speed.png?raw=true" width="350" title="Wind Speed vs. Latitude">
+
 
 The second requirement is to compute the linear regression for each relationship. This time, separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 

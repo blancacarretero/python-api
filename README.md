@@ -10,19 +10,19 @@ Created a Python script to visualize the weather of 500+ cities of varying dista
 
 Created a series of scatter plots to showcase the following relationships:
 
-* <b>Temperature (F) vs. Latitude</b>
+<b>Temperature (F) vs. Latitude</b>
 <img src="https://github.com/blancacarretero/python-api/blob/main/images/latitude_vs_temperature.png?raw=true" width="350" title="Temperature vs. Latitude">
     * As expected, the closer to the equator the warmer temperatures are. Li 
 
 &nbsp;
   
-* <b>Humidity (%) vs. Latitude</b>
+<b>Humidity (%) vs. Latitude</b>
 <img src="https://github.com/blancacarretero/python-api/blob/main/images/latitude_vs_humidity.png?raw=true" width="350" title="Humidity vs. Latitude">
 
-* <b>Cloudiness (%) vs. Latitude</b>
+<b>Cloudiness (%) vs. Latitude</b>
 <img src="https://github.com/blancacarretero/python-api/blob/main/images/latitude_vs_cloudiness.png?raw=true" width="350" title="Cloudiness vs. Latitude">
 
-* <b>Wind Speed (mph) vs. Latitude</b>
+<b>Wind Speed (mph) vs. Latitude</b>
 <img src="https://github.com/blancacarretero/python-api/blob/main/images/latitude_vs_wind_speed.png?raw=true" width="350" title="Wind Speed vs. Latitude">
 
 

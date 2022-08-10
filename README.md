@@ -8,7 +8,7 @@ Whether financial, political, or social&mdash;data's true power rests in its abi
 
 Created a Python script to visualize the weather of 500+ cities of varying distance from the equator using a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and problem-solving skills to create a representative model of weather across cities.
 
-I. Created a series of scatter plots to showcase the following relationships:
+#### I. Created a series of scatter plots to showcase the following relationships:
 
 <b>Temperature (F) vs. Latitude</b>
 
@@ -38,7 +38,7 @@ I. Created a series of scatter plots to showcase the following relationships:
 
 &nbsp;
 
-II. Computed the linear regression for each relationship. Separated the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
+#### II. Computed the linear regression for each relationship. Separated the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 * Northern Hemisphere - Temperature (F) vs. Latitude
 * Southern Hemisphere - Temperature (F) vs. Latitude
@@ -53,12 +53,12 @@ II. Computed the linear regression for each relationship. Separated the plots in
 
 Worked with weather data to plan future vacations. Used Jupyter-gmaps and the Google Places API.
 
-I. Created a heat map that displays the humidity for every city from Part 1:
+#### I. Created a heat map that displays the humidity for every city from Part 1:
 
-<img src="https://github.com/blancacarretero/python-api/blob/main/images/humidity_map.png?raw=true" width="800" title="Temperature vs. Latitude">
+<img src="https://github.com/blancacarretero/python-api/blob/main/images/humidity_heatmap.png?raw=true" width="900" title="Temperature vs. Latitude">
   
 
-II. Narrowed down the DataFrame to find ideal weather conditions. For example:
+#### II. Narrowed down the DataFrame to find ideal weather conditions. For example:
 
   * A max temperature lower than 80 degrees but higher than 70.
 
@@ -69,8 +69,10 @@ II. Narrowed down the DataFrame to find ideal weather conditions. For example:
   * Droped any rows that don't satisfy all three conditions.
  
   
-III. Used Google Places API to find the first hotel for each city located within 5,000 meters of your coordinates.
+#### III. Used Google Places API to find the first hotel for each city located within 5,000 meters of your coordinates.
 
-IV. Plotted the hotels on top of the humidity heatmap, with each pin containing the **Hotel Name**, **City**, and **Country**:
+<img src="https://github.com/blancacarretero/python-api/blob/main/images/locations_and_hotels.png?raw=true" width="500" title="Temperature vs. Latitude">
 
-<img src="https://github.com/blancacarretero/python-api/blob/main/images/hotel_map.png?raw=true" width="800" title="Temperature vs. Latitude">
+#### IV. Plotted the hotels on top of the humidity heatmap, with each pin containing the **Hotel Name**, **City**, and **Country**:
+
+<img src="https://github.com/blancacarretero/python-api/blob/main/images/hotel_data_heatmap.png?raw=true" width="900" title="Temperature vs. Latitude">

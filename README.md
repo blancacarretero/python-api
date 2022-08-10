@@ -55,7 +55,7 @@ Worked with weather data to plan future vacations. Used Jupyter-gmaps and the Go
 
 #### I. Created a heat map that displays the humidity for every city from Part 1:
 
-<img src="https://github.com/blancacarretero/python-api/blob/main/images/humidity_heatmap.png?raw=true" width="900" title="Temperature vs. Latitude">
+<img src="https://github.com/blancacarretero/python-api/blob/main/images/humidity_heatmap.png?raw=true" width="900" title="humidity heatmap">
   
 
 #### II. Narrowed down the DataFrame to find ideal weather conditions. For example:
@@ -71,8 +71,8 @@ Worked with weather data to plan future vacations. Used Jupyter-gmaps and the Go
   
 #### III. Used Google Places API to find the first hotel for each city located within 5,000 meters of your coordinates.
 
-<img src="https://github.com/blancacarretero/python-api/blob/main/images/locations_and_hotels.png?raw=true" width="500" title="Temperature vs. Latitude">
+<img src="https://github.com/blancacarretero/python-api/blob/main/images/locations_and_hotels.png?raw=true" width="500" title="ideal weather conditions">
 
 #### IV. Plotted the hotels on top of the humidity heatmap, with each pin containing the **Hotel Name**, **City**, and **Country**:
 
-<img src="https://github.com/blancacarretero/python-api/blob/main/images/hotel_data_heatmap.png?raw=true" width="900" title="Temperature vs. Latitude">
+<img src="https://github.com/blancacarretero/python-api/blob/main/images/hotel_data_heatmap.png?raw=true" width="900" title="hotel info">

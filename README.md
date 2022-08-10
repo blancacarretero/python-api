@@ -61,7 +61,7 @@ Worked with weather data to plan future vacations. Used Jupyter-gmaps and the Go
 <img src="https://github.com/blancacarretero/python-api/blob/main/images/humidity_heatmap.png?raw=true" width="900" title="humidity heatmap">
   
 
-#### II. Narrowed down the DataFrame to find ideal weather conditions. For example:
+#### II. Narrowed down the DataFrame to find ideal weather conditions:
 
   * A max temperature lower than 80 degrees but higher than 70.
 
@@ -72,7 +72,7 @@ Worked with weather data to plan future vacations. Used Jupyter-gmaps and the Go
   * Droped any rows that don't satisfy all three conditions.
  
   
-#### III. Used Google Places API to find the first hotel for each city located within 5,000 meters of your coordinates.
+#### III. Used Google Places API to find the first hotel for each city located within 5,000 meters of coordinates.
 
 <img src="https://github.com/blancacarretero/python-api/blob/main/images/locations_and_hotels.png?raw=true" width="500" title="ideal weather conditions">
 

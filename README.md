@@ -1,8 +1,11 @@
-# Python APIs
+# Python Weather APIs 	:cloud_with_rain:
 
 ## Background
 
 Whether financial, political, or social&mdash;data's true power rests in its ability to answer questions definitively. Python requests, APIs, and JSON may answer a fundamental question: "What's the weather like as we approach the equator?"
+
+<img src="https://cdn.ioos.noaa.gov/attachments/2018/09/GOES-Florence_Isaac_Helene_web-banner.jpg" width="1000">
+
 
 ## Part 1: WeatherPy
 
